@@ -56,7 +56,7 @@ public class Attribut {
     static void proprieteBouton (JButton bouton,int x)
     {
         bouton.setPreferredSize(new Dimension(x, 30));
-        bouton.setForeground(Color.BLUE);
+        bouton.setForeground(Color.BLUE); // Le fond du  bouton prend la couleur bleue.
     }
 
 }
